@@ -7,8 +7,13 @@ public class Main {
 
         System.out.print("Digite um número inteiro: ");
         int numero = entrada.nextInt();
+        int soma =0;
 
-
+        String expressao = "";
+        // Loop for para calcular a soma de 1 a numero
+        for (int index = 1; index <= numero; index++); {
+            soma +=1;
+        }
 
     }
 }
