@@ -10,7 +10,7 @@ public class ContagemdeDigitos {
         int contador = 0;
 
         //verifica se o número é zero, pois zero tem 1 digito
-        if (numero ==0){
+        if (numero == 0) {
             contador = 1;
         } else {
             //loop while para contar digitos
@@ -19,4 +19,8 @@ public class ContagemdeDigitos {
                 contador++; //adiciona o contador
             }
         }
+        System.out.println(contador);
+
+        entrada.close();
     }
+}
