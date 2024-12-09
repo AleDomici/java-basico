@@ -17,6 +17,7 @@ public class Palindromo {
         }
 
         //Verificando se é um palindromo
+
         if (original == invertido) {
             System.out.println("True");
         } else {
