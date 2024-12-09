@@ -142,3 +142,10 @@ Série de Fibonacci: 0, 1, 1, 2, 3
 1. **Clone o repositório** para a sua máquina local:
    ```bash
    git clone https://github.com/AleDomici/java-basico.git
+
+2. Acesse o diretório src onde os programas estão localizados:
+
+```bash
+Copiar código
+cd java-basico/src
+```
