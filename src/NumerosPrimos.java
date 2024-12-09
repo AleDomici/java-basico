@@ -7,6 +7,10 @@ public class NumerosPrimos {
             System.out.print("Digite um número inteiro: ");
             int numero = entrada.nextInt();
 
+            boolean primo =  verificarPrimo(numero); //veridica se o numero é primo
+
+            System.out.println(primo); // Exibe true se for primo, false caso contrário
+
+            entrada.close();
         }
-    }
 
