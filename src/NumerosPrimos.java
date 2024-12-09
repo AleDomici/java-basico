@@ -15,6 +15,8 @@ public class NumerosPrimos {
             numerointervido = numerointervido *10 + digito;
             numero /=10; //Aqui é onde ocorre a inversão
         }
+        System.out.println("Número invertido: " + numerointervido);
 
+        entrada.close();
     }
 }
